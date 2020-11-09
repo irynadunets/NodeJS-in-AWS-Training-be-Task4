@@ -12,7 +12,7 @@ provider:
     PG_PORT: 5432
     PG_DATABASE: products1
     PG_USERNAME: postgres
-    PG_PASSWORD: lHCPxW0mrb9Yk0tEOfiM
+    PG_PASSWORD: ******
 
 plugins:
   - serverless-webpack
