@@ -85,7 +85,11 @@ Provide your reviewers with the link to the repo and URL (API Gateway URL) to ex
 Reviewers should verify the lambda functions by invoking them through provided URLs.
  
 - **1** - Task 4.1 is implemented
-- **3** - TASK 4.2 is implemented lambda links are provided and returns data
+- **3** - TASK 4.2 is implemented lambda links are provided and returns data:
+
+GET/products : https://a6ciiwi6s8.execute-api.eu-west-1.amazonaws.com/dev/products
+GET/products/{productId} : https://a6ciiwi6s8.execute-api.eu-west-1.amazonaws.com/dev/products/64401727-e7c7-4d84-b5f5-e67a53dc5358
+
 - **4** - TASK 4.3 is implemented lambda links are provided and products is stored in DB (call TASK 4.2 to see the product)
 - **5** - Your own Frontend application is integrated with product service (/products API) and products from product-service are represented on Frontend. Link to a working Front-End application is provided for cross-check reviewer.
 
